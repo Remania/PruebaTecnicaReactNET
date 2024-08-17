@@ -31,7 +31,7 @@ const UserName = () => {
 
     // Define la función de envío
     const submitForm = async (data) => {
-        const response = await fetch('https://localhost:7082/User/2', {
+        const response = await fetch('https://localhost:7082/User/1', {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',

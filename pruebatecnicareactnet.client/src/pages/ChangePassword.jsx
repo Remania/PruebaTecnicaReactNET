@@ -71,7 +71,7 @@ const ChangePassword = () => {
 
     const submitForm = async (data) => {
         try {
-            const response = await fetch('https://localhost:7082/User/2', {
+            const response = await fetch('https://localhost:7082/User/1', {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',
