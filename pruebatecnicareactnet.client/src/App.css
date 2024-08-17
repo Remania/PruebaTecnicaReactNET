@@ -1,0 +1,65 @@
+﻿#root {
+    width: 100%;
+    max-width: 580px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+#root > div {
+    height: 100%;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+main {
+    padding: 1.5rem 1rem;
+    background: #f8fdff;
+    height: calc(100% - 65px);
+}
+
+.list__container {
+    border: thin solid lightblue;
+    border-bottom: thin solid transparent;
+    border-radius: .5rem;
+    overflow: clip;
+}
+
+.spacing {
+    padding: 1rem 0;
+}
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 5px);
+}
+
+    .form__container > button[type="submit"] {
+        background-color: #a4e379;
+        border-color: #a4e379;
+        color: #5b7d44;
+        font-weight: bolder;
+        font-size: 1.25rem;
+    }
+
+        .form__container > button[type="submit"]:hover,
+        .form__container > button[type="submit"]:focus,
+        .form__container > button[type="submit"]:active,
+        .form__container > button[type="submit"].active,
+        .open > .dropdown-toggle.btn-primary {
+            background-color: #a4e379;
+            border-color: #a4e379;
+        }
+
+div.text-danger, div.text-success {
+    display: flex;
+    align-items: center;
+}
+
+div.text-danger > span, div.text-success > span {
+    margin-left: .25rem;
+}

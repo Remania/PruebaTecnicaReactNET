@@ -1,0 +1,6 @@
+@PruebaTecnicaReactNET.Server_HostAddress = http://localhost:5278
+
+GET {{PruebaTecnicaReactNET.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
