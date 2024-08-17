@@ -49,15 +49,12 @@ Backend: .NET Core 8, SQL Server.
 Base de Datos: SQL Server con una tabla User para almacenar la información del usuario.
 
 ## Comando SQL SERVER
--- Crear la base de datos
 CREATE DATABASE PruebaTecnicaReactNET;
 GO
 
--- Seleccionar la base de datos
 USE PruebaTecnicaReactNET;
 GO
 
--- Crear la tabla dbo.User
 CREATE TABLE dbo.[User] (
     Id INT IDENTITY(1,1) PRIMARY KEY,
     Name NVARCHAR(100),
@@ -68,7 +65,6 @@ CREATE TABLE dbo.[User] (
 );
 GO
 
--- Insertar un registro de ejemplo
 INSERT INTO dbo.[User] (Name, Username, Password, Email, PhoneNumber)
 VALUES ('Juan Pérez', 'juanperez', 'ContraseñaSegura123!', 'juan.perez@example.com', '1234567890');
 GO
