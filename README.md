@@ -49,23 +49,26 @@ Backend: .NET Core 8, SQL Server.
 Base de Datos: SQL Server con una tabla User para almacenar la información del usuario.
 
 ## Comando SQL SERVER
-CREATE DATABASE PruebaTecnicaReactNET;
-GO
+-- Crear la base de datos <br>
+CREATE DATABASE PruebaTecnicaReactNET; <br>
+GO <br>
 
-USE PruebaTecnicaReactNET;
-GO
+-- Seleccionar la base de datos <br>
+USE PruebaTecnicaReactNET; <br>
+GO <br>
 
-CREATE TABLE dbo.[User] (
-    Id INT IDENTITY(1,1) PRIMARY KEY,
-    Name NVARCHAR(100),
-    Username NVARCHAR(50) UNIQUE,
-    Password NVARCHAR(255),
-    Email NVARCHAR(100),
-    PhoneNumber NVARCHAR(20)
-);
-GO
+-- Crear la tabla dbo.User <br>
+CREATE TABLE dbo.[User] ( <br>
+    Id INT IDENTITY(1,1) PRIMARY KEY, <br>
+    Name NVARCHAR(100), <br>
+    Username NVARCHAR(50) UNIQUE, <br>
+    Password NVARCHAR(255), <br>
+    Email NVARCHAR(100), <br>
+    PhoneNumber NVARCHAR(20) <br>
+); <br>
+GO <br>
 
-INSERT INTO dbo.[User] (Name, Username, Password, Email, PhoneNumber)
-VALUES ('Juan Pérez', 'juanperez', 'ContraseñaSegura123!', 'juan.perez@example.com', '1234567890');
-GO
-
+-- Insertar un registro de ejemplo <br>
+INSERT INTO dbo.[User] (Name, Username, Password, Email, PhoneNumber) <br>
+VALUES ('Juan Pérez', 'juanperez', 'ContraseñaSegura123!', 'juan.perez@example.com', '1234567890'); <br>
+GO <br>
