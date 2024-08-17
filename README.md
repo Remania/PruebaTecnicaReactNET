@@ -29,13 +29,15 @@ La página **Change Password** permite a los usuarios ver su contraseña actual 
 1. **Clonar el Repositorio en Visual Studio**:
   git clone https://github.com/Remania/PruebaTecnicaReactNET.git
 
-2. **Iniciar el proyecto con el botón Iniciar o https**
+2. **Copiar el comando SQL SERVER y ejecutar para crear la base de datos y la tabla User**
 
-3. **Ingresar a las siguientes URLs**
+3. **Iniciar el proyecto con el botón Iniciar o https**
+
+4. **Ingresar a las siguientes URLs en el navegador Edge**
   Frontend React: https://localhost:5173/
   Backend API Swagger: https://localhost:7082/swagger/index.html
 
-4. **Para hacer pruebas en Swagger, utilizar el userId: 1**
+5. **Para hacer pruebas en Swagger, utilizar el userId: 1**
 
 ## Uso del Proyecto
 1. Navegar a la página de Profile Setting para visualizar la información personal del usuario.
